@@ -5,14 +5,15 @@ import java.util.List;
 
 /**
  *  
- * µã
+ * 
  */
 public class Node {
+	
 	public int value;
-	public int in; // Èë¶È = ¼¸¸ö±ßÖ¸Ïò×Ô¼º
-	public int out; // ³ö¶È = ¼¸¸ö±ß´Ó×Ô¼º³öÈ¥
-	public List<Node> nexts; // ´Ó×Ô¼º³ö·¢£¬ÓĞÄÄĞ©ÁÚ¾Óµã
-	public List<Edge> edges; // ´Ó×Ô¼º³ö·¢£¬ÓĞÄÄĞ©ÁÚ¾Ó±ß
+	public int in; // å…¥åº¦ = å‡ ä¸ªè¾¹æŒ‡å‘è‡ªå·±
+	public int out; // å‡ºåº¦ = å‡ ä¸ªè¾¹ä»è‡ªå·±å‡ºå»
+	public List<Node> nexts; // ä»è‡ªå·±å‡ºå‘ï¼Œæœ‰å“ªäº›é‚»å±…ç‚¹
+	public List<Edge> edges; // ä»è‡ªå·±å‡ºå‘ï¼Œæœ‰å“ªäº›é‚»å±…è¾¹
 
 	public Node(int value) {
 		this.value = value;
