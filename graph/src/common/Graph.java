@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 /**
  *  
- * ͼ�� �ܶ�� + �ܶ��
+ * 图： 很多边 + 很多点
  */
 public class Graph {
 	public Map<Integer, Node> nodes; // �� 

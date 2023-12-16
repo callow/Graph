@@ -2,16 +2,17 @@ package common;
 
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  *  
- * ï¿½ï¿½
+ * µã
  */
 public class Node {
 	public int value;
-	public int in; // ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ô¼ï¿½
-	public int out; // ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ß´ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½È¥
-	public List<Node> nexts; // ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½Ú¾Óµï¿½
-	public List<Edge> edges; // ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½Ú¾Ó±ï¿½
+	public int in; // Èë¶È = ¼¸¸ö±ßÖ¸Ïò×Ô¼º
+	public int out; // ³ö¶È = ¼¸¸ö±ß´Ó×Ô¼º³öÈ¥
+	public List<Node> nexts; // ´Ó×Ô¼º³ö·¢£¬ÓÐÄÄÐ©ÁÚ¾Óµã
+	public List<Edge> edges; // ´Ó×Ô¼º³ö·¢£¬ÓÐÄÄÐ©ÁÚ¾Ó±ß
 
 	public Node(int value) {
 		this.value = value;

@@ -2,7 +2,7 @@ package common;
 
 /**
  *  
- * ��
+ * 边
  */
 public class Edge {
 	public int weight;
