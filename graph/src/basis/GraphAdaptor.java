@@ -1,4 +1,8 @@
-package common;
+package basis;
+
+import common.Edge;
+import common.Graph;
+import common.Node;
 
 /**
  * 一种图转化的例子 
