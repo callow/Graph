@@ -16,7 +16,7 @@ public class O1BFS_MinRemoval {
 
 	public static int minimumObstacles(int[][] grid) {
 		
-		int[] move = {-1,0, 1, 0 , -1};
+		int[] move = {-1, 0, 1, 0 , -1};
 		int m = grid.length;
 		int n = grid[0].length;
 		int[][] distance = new int[m][n];
