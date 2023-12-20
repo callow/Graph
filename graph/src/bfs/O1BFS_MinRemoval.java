@@ -12,7 +12,7 @@ import java.util.ArrayDeque;
 //返回需要移除的障碍物的最小数目
 //测试链接 : https://leetcode.cn/problems/minimum-obstacle-removal-to-reach-corner/
 
-public class O1BFS {
+public class O1BFS_MinRemoval {
 
 	public static int minimumObstacles(int[][] grid) {
 		

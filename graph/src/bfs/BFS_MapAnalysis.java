@@ -15,7 +15,7 @@ package bfs;
 
 
 
-public class MapAnalysis {
+public class BFS_MapAnalysis {
 
 	public static int MAXN = 101;
 

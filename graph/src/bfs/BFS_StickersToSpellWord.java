@@ -14,7 +14,7 @@ import java.util.HashSet;
 	 并且 target 被选择为两个随机单词的连接。
 	 测试链接 : https://leetcode.cn/problems/stickers-to-spell-word/
  */
-public class StickersToSpellWord {
+public class BFS_StickersToSpellWord {
 	
 	public static int MAXN = 401;
 
